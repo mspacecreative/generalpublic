@@ -1,9 +1,3 @@
-<style>
-	.theme-switch .portfolio h4 {
-		background: <?php the_field('colour_picker', 'options'); ?>;
-	}
-</style>
-
 <?php if ( get_field('colour_picker', 'options') ): ?>
 <div class="portfolio grid theme-switch">
 <div class="grid-sizer"></div>
@@ -16,7 +10,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/proteoform/proteoform-thumbnail.jpg" alt="Proteoform Scientific" />
 		</a>
 		
-		<h4>Proteoform Scientific</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Proteoform Scientific</h4>
 		<p>Brand Identity / Collateral / Website / Specialized Packaging / Video</p>
 		
 		<div class="port-panel">
@@ -47,7 +41,7 @@
 			<img src="https://genpublic.ca/wp-content/uploads/2019/10/amenities-slider-mh-885x600.jpg" alt="GEM Retirement Living" />
 		</a>
 		
-		<h4>GEM Retirement Living</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">GEM Retirement Living</h4>
 		<p>Videos</p>
 		
 		<div class="port-panel">
@@ -77,7 +71,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aga-khan/aga-khan-website-thumb.jpg" alt="Aga-Khan Foundation" />
 		</a>
 		
-		<h4>Aga Khan Foundation Canada<br><span style="font-size: 13px;">Digital Impact Report</span></h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Aga Khan Foundation Canada<br><span style="font-size: 13px;">Digital Impact Report</span></h4>
 		<p>Strategy / Communication Planning / Identity / Design / Digital Development / Print</p>
 		
 		<div class="port-panel">
@@ -106,7 +100,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/child-soldiers-thumb.jpg" alt="">
 		</a>
 		
-		<h4>Romeo Dallaire Child Soldier Initiative</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Romeo Dallaire Child Soldier Initiative</h4>
 		<p>Five Illustrated booklets / Web</p>
 		
 		<div class="port-panel">
@@ -144,7 +138,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/nimidiwin/nimidiwin-logo.jpg" alt="Nimidiwin">
 		</a>
 		
-		<h4>Nimidiwin Live Event, Canada 150<br /><span style="font-size: 13px;">Canadian Museum of History</span></h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Nimidiwin Live Event, Canada 150<br /><span style="font-size: 13px;">Canadian Museum of History</span></h4>
 		<p>Visual Identity / Collateral / Animation</p>
 		
 		<div class="port-panel" id="nimidiwin">
@@ -183,7 +177,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/iwk-thumb.jpg" alt="">
 		</a>
 		
-		<h4>IWK Health Centre</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">IWK Health Centre</h4>
 		<p>Digital Annual Report</p>
 		
 		<div class="port-panel">
@@ -215,7 +209,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/ns-works/ns-works-Logo.png" alt="Nova Scotia Works">
 		</a>
 		
-		<h4>Nova Scotia Works</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Nova Scotia Works</h4>
 		<p>Strategy / Branding / Collateral</p>
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
@@ -243,7 +237,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/cove-thumb.jpg" alt="">
 		</a>
 		
-		<h4>Centre for Ocean Ventures &amp; Entrepreneurship</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Centre for Ocean Ventures &amp; Entrepreneurship</h4>
 		<p>Name / Visual Identity / Web / Marketing Materials</p>
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
@@ -270,7 +264,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/balsam-fir.jpg" alt="">
 		</a>
 		
-		<h4>Nova Scotia Balsam Fir Company</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Nova Scotia Balsam Fir Company</h4>
 		<p>Name / Brand Development / Identity / Collateral / Web</p>
 		
 		<div class="port-panel">
@@ -298,7 +292,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/ronald-thumb.jpg" alt="">
 		</a>
 		
-		<h4>Ronald McDonald House Atlantic</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Ronald McDonald House Atlantic</h4>
 		<p>Video / TV</p>
 		
 		<div class="port-panel">
@@ -321,7 +315,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/child_soldiers/ad-5-1024x685.jpg" alt="Weapons of War">
 		</a>
 		
-		<h4>Weapons of War</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Weapons of War</h4>
 		<p>Posters / Web / Social</p>
 		
 		<div class="port-panel">
@@ -350,7 +344,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/soccer-ns-thumb.jpg" alt="">
 		</a>
 		
-		<h4>Soccer Nova Scotia</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Soccer Nova Scotia</h4>
 		<p>Cinema Spot</p>
 		
 		<div class="port-panel">
@@ -374,7 +368,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/iwk-foundation-thumb.jpg" alt="">
 		</a>
 		
-		<h4>IWK Foundation</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">IWK Foundation</h4>
 		<p>Website</p>
 		
 		<div class="port-panel">
@@ -409,7 +403,7 @@
 			<img src="http://genpublic.ca/wp-content/uploads/2016/09/financial_statements_report_light.jpg" alt="">
 		</a>
 		
-		<h4>NSCC Report to the Community 2015</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">NSCC Report to the Community 2015</h4>
 		<p>Print pieces / E newsletter / Interactive PDF</p>
 		
 		<div class="port-panel">
@@ -435,7 +429,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/images/st-fx-thumb.jpg" alt="">
 		</a>
 		
-		<h4>St Francis Xavier University</h4>
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">St Francis Xavier University</h4>
 		<p>Website</p>
 		
 		<div class="port-panel">
