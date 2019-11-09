@@ -107,9 +107,16 @@ nav ul li a {
 	background-size: cover;
 }
 
-#who a, #contact a {
-	text-decoration: none;
+.white-text a {
 	color: #fff;
+}
+
+.black-text a {
+	color: #000;
+}
+
+a {
+	text-decoration: none;
 }
 
 #clients {
