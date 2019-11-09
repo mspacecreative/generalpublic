@@ -454,8 +454,48 @@ Template Name: Home Page
 	
 	<div class="dzsparallaxer--target" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/turntables.jpg);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;"></div>
 	
-	<?php endif; ?>
-
+	<?php endif;
+	
+	if ( get_field('how_text_colour_how_text_colour') == 'dark' ): ?>
+	<div class="content-container clearfix">
+		    
+		<?php 
+		if( have_rows('how_left_col') ):
+		while( have_rows('how_left_col') ): the_row(); ?>
+	
+		<div class="one-third">
+	
+			<div class="inner black-text">
+	
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+				<?php the_sub_field('col_blurb'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php 
+		endwhile;
+		endif; ?>
+			
+		<?php if ( get_field('how_right_col') ): ?>
+	
+		<div class="two-third">
+	
+			<div class="inner black-text">
+	
+				<?php the_field('how_right_col'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php endif; ?>
+	
+	</div>
+	
+	<?php elseif ( get_field('how_text_colour_how_text_colour') == 'light' ): ?>
 	<div class="content-container clearfix">
 	    
 	    <?php 
@@ -495,12 +535,50 @@ Template Name: Home Page
 		<?php endif; ?>
 
 	</div>
+	
+	<?php else : ?>
+	<div class="content-container clearfix">
+		    
+		<?php 
+		if( have_rows('how_left_col') ):
+		while( have_rows('how_left_col') ): the_row(); ?>
+	
+		<div class="one-third">
+	
+			<div class="inner black-text">
+	
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+				<?php the_sub_field('col_blurb'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php 
+		endwhile;
+		endif; ?>
+			
+		<?php if ( get_field('how_right_col') ): ?>
+	
+		<div class="two-third">
+	
+			<div class="inner black-text">
+	
+				<?php the_field('how_right_col'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php endif; ?>
+	
+	</div>
+	<?php endif; ?>
 
 </section>
 
 <!--HOW-->
-
-
 
 <!--WHO-->
 
