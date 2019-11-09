@@ -919,9 +919,3 @@
 	
 </div>
 <?php endif; ?>
-
-<style>
-	.theme-switch .portfolio h4 {
-		background: <?php the_field('colour_picker', 'options'); ?>;
-	}
-</style>
