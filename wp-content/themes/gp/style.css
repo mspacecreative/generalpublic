@@ -115,6 +115,10 @@ nav ul li a {
 	border-bottom-color: #000;
 }
 
+.black-text .question .fa {
+	color: #000;
+}
+
 .white-text a {
 	color: #fff;
 }
