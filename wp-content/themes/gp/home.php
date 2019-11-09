@@ -793,8 +793,9 @@ Template Name: Home Page
 
 <section id="experience" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/experience.jpg);">
 
-<?php endif; ?>
+<?php endif;
 
+	if ( get_field('experience_text_colour') == 'dark' ): ?>
 	<article class="clearfix">
 	    
 	    <?php 
@@ -803,7 +804,7 @@ Template Name: Home Page
 
 		<div class="one-third dark-text">
 
-			<div class="inner white-text">
+			<div class="inner">
 
 			<h4><?php the_sub_field('col_title'); ?></h4>
 
@@ -824,7 +825,7 @@ Template Name: Home Page
 
 		<div class="two-third dark-text">
 
-			<div class="two-col clearfix white-text no-margin">
+			<div class="two-col clearfix no-margin">
 
 				<div class="l-col">
 				    
@@ -841,7 +842,7 @@ Template Name: Home Page
 			</div>
 			
 			<?php if ( get_sub_field('exp_col_right_row2') ): ?>
-			<div class="white-text">
+			<div>
 			    <?php the_sub_field('exp_col_right_row2'); ?>
 			</div>
 			<?php endif; ?>
@@ -854,6 +855,119 @@ Template Name: Home Page
 		?>
 
 	</article>
+	
+	<?php elseif ( get_field('experience_text_colour') == 'light' ): ?>
+	<article class="clearfix">
+		    
+		<?php 
+		if( have_rows('experience_left_col') ):
+		while( have_rows('experience_left_col') ): the_row(); ?>
+	
+		<div class="one-third dark-text">
+	
+			<div class="inner white-text">
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+			</div>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+			
+		<?php 
+		if( have_rows('experience_right_col') ):
+		while( have_rows('experience_right_col') ): the_row(); ?>
+	
+		<div class="two-third dark-text">
+	
+			<div class="two-col clearfix white-text no-margin">
+	
+				<div class="l-col">
+					    
+					<?php the_sub_field('col_right_col_1'); ?>
+	
+				</div>
+	
+				<div class="r-col">
+	
+					<?php the_sub_field('col_right_col_2'); ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php if ( get_sub_field('exp_col_right_row2') ): ?>
+			<div class="white-text">
+				<?php the_sub_field('exp_col_right_row2'); ?>
+			</div>
+			<?php endif; ?>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+	
+	</article>
+	
+	<?php else : ?>
+	<article class="clearfix">
+		    
+		<?php 
+		if( have_rows('experience_left_col') ):
+		while( have_rows('experience_left_col') ): the_row(); ?>
+	
+		<div class="one-third dark-text">
+	
+			<div class="inner white-text">
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+			</div>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+			
+		<?php 
+		if( have_rows('experience_right_col') ):
+		while( have_rows('experience_right_col') ): the_row(); ?>
+	
+		<div class="two-third dark-text">
+	
+			<div class="two-col clearfix white-text no-margin">
+	
+				<div class="l-col">
+					    
+					<?php the_sub_field('col_right_col_1'); ?>
+	
+				</div>
+	
+				<div class="r-col">
+	
+					<?php the_sub_field('col_right_col_2'); ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php if ( get_sub_field('exp_col_right_row2') ): ?>
+			<div class="white-text">
+				<?php the_sub_field('exp_col_right_row2'); ?>
+			</div>
+			<?php endif; ?>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+	
+	</article>
+	<?php endif; ?>
 
 </section>
 
