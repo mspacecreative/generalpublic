@@ -598,9 +598,9 @@ Template Name: Home Page
 		if( have_rows('who_left_col') ):
 		while( have_rows('who_left_col') ): the_row(); ?>
 
-		<div class="one-third dark-text">
+		<div class="one-third black-text">
 
-			<div class="inner white-text">
+			<div class="inner">
 
 				<h4><?php the_sub_field('col_title'); ?></h4>
 
@@ -621,9 +621,9 @@ Template Name: Home Page
 		if( have_rows('who_right_col') ):
 		while( have_rows('who_right_col') ): the_row(); ?>
 
-		<div class="two-third dark-text">
+		<div class="two-third black-text">
 
-			<div class="inner white-text no-padding">
+			<div class="inner no-padding">
 
 				<?php the_sub_field('who_right_col_first_row'); ?>
 
@@ -646,7 +646,7 @@ Template Name: Home Page
 			</div>
 			
 			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
-			<div class="inner white-text no-padding">
+			<div class="inner no-padding">
 
 				<?php the_sub_field('who_right_col_third_row'); ?>
 
@@ -659,7 +659,7 @@ Template Name: Home Page
 			
 			if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
 			
-			<div class="two-col clearfix white-text" style="margin-top: 0;">
+			<div class="two-col clearfix" style="margin-top: 0;">
 
 				<div class="l-col">
 				    
