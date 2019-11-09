@@ -107,6 +107,14 @@ nav ul li a {
 	background-size: cover;
 }
 
+.black-text .accordion-container {
+	border-color: #000;
+}
+
+.black-text .faq-container {
+	border-bottom-color: #000;
+}
+
 .white-text a {
 	color: #fff;
 }
