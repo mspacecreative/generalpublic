@@ -456,7 +456,7 @@ Template Name: Home Page
 	
 	<?php endif;
 	
-	if ( get_field('how_text_colour_how_text_colour') == 'dark' ): ?>
+	if ( get_field('how_text_colour') == 'dark' ): ?>
 	<div class="content-container clearfix">
 		    
 		<?php 
@@ -495,7 +495,7 @@ Template Name: Home Page
 	
 	</div>
 	
-	<?php elseif ( get_field('how_text_colour_how_text_colour') == 'light' ): ?>
+	<?php elseif ( get_field('how_text_colour') == 'light' ): ?>
 	<div class="content-container clearfix">
 	    
 	    <?php 
