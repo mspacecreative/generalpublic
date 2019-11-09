@@ -24,7 +24,7 @@
 				<div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/proteoform/proteoform-2.jpg" alt="Proteoform Scientific" /></div>
 			</div>
 			<div class="blurb">
-				<h3>Proteoform Scientific</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Proteoform Scientific</h3><br />
 				<h6>Brand Identity / Collateral / Website / Specialized Packaging / Video</h6>
 				<p>General Public was engaged by Proteoform Scientific to establish its brand before going to market. As a unique B2B start-up, Proteoform Scientific needed a brand positioning as well as range of brand elements and collateral. With experience in both the biotech and biomedical fields, and working closely with the President and investment team, General Public created the brand, identity, videos, website (with e-commerce capability) and unique, specialized packaging in a timely and efficient manner. This efficiency and understanding of the start-up environment allowed General Public to deliver a comprehensive package of assets for the launch of Proteoform Scientific to the market.</p>
 				
@@ -56,7 +56,7 @@
 			    <iframe id="video-frame-10" src="https://player.vimeo.com/video/333627353?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			</div>
 			<div class="blurb">
-				<h3>GEM Retirement Living</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">GEM Retirement Living</h3><br />
 				<h6>Videos</h6>
 				<p>Working with Jive Photographic, General Public developed a campaign for GEM Retirement Living. The key insight behind the campaign lay in the fact that retirement isn’t the end of your life story. Rather, it is just another chapter in an already rich and fulfilling life. With this in mind the campaign focused on current GEM residents as they shared their rich life stories and how that rich life is continuing at the many GEM residences. Comprehensive interviews were carried out with selected residents to help craft and hone their experiences for the videos. A number of videos were produced featuring the residents, with each telling their story in a very simple way – with the focus entirely on them. Complementing the campaign was a microsite landing page to help prospective residents and family members discover what GEM has to offer.</p>
 			</div>
@@ -82,7 +82,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aga-khan/aga-khan-website-1.jpg" alt="Aga-Khan Foundation" /></div>
 			</div>
 			<div class="blurb">
-				<h3>Aga Khan Foundation Canada<br><span style="font-size: 13px;">Digital Impact Report</span></h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Aga Khan Foundation Canada<br><span style="font-size: 13px;">Digital Impact Report</span></h3><br />
 				<h6>Strategy / Communication Planning / Identity / Design / Digital Development / Print</h6>
 				<p>Aga Khan Foundation Canada (AKFC) is a non-profit international development agency, working in Asia and Africa to find sustainable solutions to the complex problems causing global poverty. AKFC concentrates on development challenges in health, education, economic inclusion, food security, gender equality, and civil society.</p>
 				<p>The Partnership for Advancing Human Development in Africa and Asia (PAHDAA) is an AKFC program, undertaken in partnership with the Government of Canada. The objective was to showcase the impact of the program and to communicate how PAHDAA has improved lives around the world. It is a $100-million initiative to strengthen systems of health and education, support civil society organizations, bolster partnerships between higher education institutions in Canada and the developing world, and engage Canadians in global issues.</p>
@@ -112,7 +112,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/child-soldiers-slide-4.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>Romeo Dallaire Child Soldier Initiative</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Romeo Dallaire Child Soldier Initiative</h3><br />
 				<h6>Five Illustrated booklets / Web</h6>
 				<p>The aim of the Not My War public advocacy campaign was to recognize the
 				international day to stop the use of child soldiers (Feb 12 th ). The campaign
@@ -161,7 +161,7 @@
 			    </div>
 			</div>
 			<div class="blurb">
-				<h3>Nimidiwin Live Event, Canada 150</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Nimidiwin Live Event, Canada 150</h3><br />
 				<h6>Visual Identity / Collateral / Animation</h6>
 				<p>Regional Chief Morley Googoo, Assembly of First Nations Regional Chief for Nova Scotia and Newfoundland in conjunction with Canadian Heritage  came together at the end of 2017 to create a beautiful production of Indigenous Dance and Song entitled Nimidiwin. The event took place at the Canadian Museum of History in Gatineau on December 31st.  Through live song and dance, a story that explored Indigenous culture from coast to coast to coast was told.</p>
 				<p>Five animated vignettes were used during the event to tell the story between individual performances. The vignettes depicted an eagle that travels across Turtle Island and shares introductions to the culture of song and dance of the First Peoples. After each vignette, live performers took to the stage and the story unfolded.  The final vignette brings hope for the future and introduced a beautiful finale.</p>
@@ -189,7 +189,7 @@
     		  <div><img src="<?php echo get_template_directory_uri(); ?>/images/iwk-slide-4.jpg" alt=""></div>
     		</div>
     		<div class="blurb">
-    			<h3>IWK Health Centre</h3><br />
+    			<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">IWK Health Centre</h3><br />
     			<h6>Digital Annual Report</h6>
     			<p>In 2017 General Public partnered with the IWK Health Centre on their 2016/17 Digital Annual Report. The digital report
     			was a first for the IWK and involved close collaboration with the IWK&#8217;s internal team. Working with Matt Cyr, Trevor
@@ -219,7 +219,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/ns-works/ns-works-banners.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>Nova Scotia Works</h3>
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Nova Scotia Works</h3>
 				<h6>Strategy / Branding / Collateral</h6>
 				<p>In 2015, the Nova Scotia government re-organised career planning and employment services under one umbrella. Many of these services previously fell within the scope of Careers Nova Scotia. A smaller network of service providers, with a standardised service offering was rolled out across the province.</p>
 				<p>With a wider mandate, including services to support both job seekers and employers, the new entity required a new strategy and brand identity.</p>
@@ -248,7 +248,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/cove-brochure.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>Centre for Ocean Ventures &amp; Entrepreneurship</h3>
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Centre for Ocean Ventures &amp; Entrepreneurship</h3>
 				<h6>Name / Visual Identity / Web / Marketing Materials</h6>
 				<p>COVE &#8211; Centre for Ocean Ventures &amp; Entrepreneurship is a facility for applied innovation in the ocean sector. Located at the heart of Halifax&#8217;s marine cluster, it is a global hub of ocean technology commercialization in which enterprises can start, grow and prosper. General Public partnered with Larry MacEachern to create the brand platform and were responsible for developing the new name, brand, visual identity, website and marketing materials to launch the brand. The process involved extensive collaboration with the founding partners and consultation with the ocean technology sector.</p>
 				<p><a href="http://www.coveocean.com" target="_blank">Visit Site</a></p>
@@ -276,7 +276,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/balsam-fir-slide-4.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>Nova Scotia Balsam Fir Company</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Nova Scotia Balsam Fir Company</h3><br />
 				<h6>Name / Brand Development / Identity / Collateral / Web</h6>
 				<p>The Atlantic Canada Balsam Fir Partnership brings together decades of sales and export experience with millions of trees and products shipped worldwide. It is a newly formed alliance of major exporters operating under a strict set of standards to bring quality and consistency to the marketplace. The partnership required both a new name and a new brand identity to help put the Nova Scotia Balsam Fir on the world map. General Public developed the name, identity, brand and web guidelines, templates as well as strategic and branding counsel.</p>
 				<!--<p><a href="http://www.annualreport.iwk.nshealth.ca" target="_blank">Visit Site</a></p>-->
@@ -300,7 +300,7 @@
 			<div class="contents-container">
 				<iframe id="video-frame-6" src="https://player.vimeo.com/video/178496616?api=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="blurb full-screen">
-					<h3>Ronald McDonald House Atlantic</h3><br />
+					<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Ronald McDonald House Atlantic</h3><br />
 					<h6>Video / TV</h6>
 				</div>
 			</div>
@@ -327,7 +327,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/child_soldiers/ad-4.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>Weapons of War</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Weapons of War</h3><br />
 				<h6>Posters / Web / Social</h6>
 				<p>The image of a young African boy holding a gun is often the first that comes to mind when we discuss the issue of child soldiers. However, not every child soldier carries a gun in the fight for the frontline. Unlike professional armies and soldiers, the roles that children will fill as child soldiers are not always clearly defined.</p>
 				<p>Today they could be pushed into combat as a soldier at the front, while tomorrow they are expected to provide at the camp as cooks, porters or sex slaves.</p>
@@ -352,7 +352,7 @@
 			<div class="contents-container">
 				<iframe id="video-frame-7" src="https://player.vimeo.com/video/124321789?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="blurb full-screen">
-					<h3>Soccer Nova Scotia</h3><br />
+					<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Soccer Nova Scotia</h3><br />
 					<h6>Cinema Spot</h6>
 					<p>Soccer Nova Scotia had the opportunity to create a cinema commercial illustrating the global nature of soccer and its availability right here in Nova Scotia. On a limited budget and using stock footage General Public conceptualized, scripted and produced a cinema spot in conjunction with The Postman.</p>
 				</div>
@@ -381,7 +381,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/iwk-foundation-slide-5.png" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>IWK Foundation</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">IWK Foundation</h3><br />
 				<h6>Website</h6>
 				<p>Over a period of two years General Public collaborated with ISL / Mode Digital Marketing on a number of digital
 				development projects &#8211; including website, mobile and app development. Cliff Thompson helped lead creative strategy,
@@ -414,7 +414,7 @@
 			  <div><img src="http://genpublic.ca/wp-content/uploads/2016/09/financial_statements_report_light.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>NSCC Report to the Community 2015</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">NSCC Report to the Community 2015</h3><br />
 				<h6>Print pieces / E newsletter / Interactive PDF</h6>
 				<p>NSCC&#8217;s 2015 Report to the Community highlights the impact the Nova Scotia Community College has made across the province. Together with a Financial Report it illustrates how members of the NSCC Community are following their passions and ideas to create their own opportunities right here in Nova Scotia.</p>
 			</div>
@@ -441,7 +441,7 @@
 			  <div><img src="<?php echo get_template_directory_uri(); ?>/images/st-fx-slide-4.jpg" alt=""></div>
 			</div>
 			<div class="blurb">
-				<h3>St Francis Xavier University</h3><br />
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">St Francis Xavier University</h3><br />
 				<h6>Website</h6>
 				<p>Over a period of two years General Public collaborated with ISL / Mode Digital Marketing on a number of digital
 				development projects &#8211; including website, mobile and app development. Cliff Thompson helped lead creative strategy,
