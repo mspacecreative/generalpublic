@@ -28,7 +28,7 @@
 				<h6>Brand Identity / Collateral / Website / Specialized Packaging / Video</h6>
 				<p>General Public was engaged by Proteoform Scientific to establish its brand before going to market. As a unique B2B start-up, Proteoform Scientific needed a brand positioning as well as range of brand elements and collateral. With experience in both the biotech and biomedical fields, and working closely with the President and investment team, General Public created the brand, identity, videos, website (with e-commerce capability) and unique, specialized packaging in a timely and efficient manner. This efficiency and understanding of the start-up environment allowed General Public to deliver a comprehensive package of assets for the launch of Proteoform Scientific to the market.</p>
 				
-				<p><a href="http://proteoform.com/" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="http://proteoform.com/" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
@@ -87,7 +87,7 @@
 				<p>Aga Khan Foundation Canada (AKFC) is a non-profit international development agency, working in Asia and Africa to find sustainable solutions to the complex problems causing global poverty. AKFC concentrates on development challenges in health, education, economic inclusion, food security, gender equality, and civil society.</p>
 				<p>The Partnership for Advancing Human Development in Africa and Asia (PAHDAA) is an AKFC program, undertaken in partnership with the Government of Canada. The objective was to showcase the impact of the program and to communicate how PAHDAA has improved lives around the world. It is a $100-million initiative to strengthen systems of health and education, support civil society organizations, bolster partnerships between higher education institutions in Canada and the developing world, and engage Canadians in global issues.</p>
 				<p>The program drew to a close in 2017 and has benefitted more than a million people. Partnering with <a style="color: #F34836; text-decoration: none; padding: 0; background: none; font-weight: 700;" href="https://www.journeyman.global/" target="_blank">Journeyman</a>, General Public created the 1 Million Lives Unlocked digital impact report. This included developing the communication plan, strategy, the creative concept and theme, identity, website design and development and print report.</p>
-				<p><a href="https://1millionlives.akfc.ca/" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://1millionlives.akfc.ca/" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
@@ -125,7 +125,7 @@
 				pages where the layers of conflict can be peeled away or layered to reveal how
 				children are affected by conflict from a physical, social and physiological level.</p>
 				<p>The campaign was also applied online.</p> 
-				<p><a href="http://notmywar.childsoldiers.org" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="http://notmywar.childsoldiers.org" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
@@ -196,7 +196,7 @@
     			Wood and RPM productions, Cliff Thompson led the creative strategy, guided the design and development approach
     			and was creative lead for the report. The project involved theme development, design, UX design, digital development
     			for web and mobile, video production and strategy.</p>
-    			<p><a href="https://annualreport.iwk.nshealth.ca/2017" target="_blank">Visit Site</a></p>
+    			<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://annualreport.iwk.nshealth.ca/2017" target="_blank">Visit Site</a></p>
     		</div>
 		</div>
 	</div>
@@ -251,7 +251,7 @@
 				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Centre for Ocean Ventures &amp; Entrepreneurship</h3>
 				<h6>Name / Visual Identity / Web / Marketing Materials</h6>
 				<p>COVE &#8211; Centre for Ocean Ventures &amp; Entrepreneurship is a facility for applied innovation in the ocean sector. Located at the heart of Halifax&#8217;s marine cluster, it is a global hub of ocean technology commercialization in which enterprises can start, grow and prosper. General Public partnered with Larry MacEachern to create the brand platform and were responsible for developing the new name, brand, visual identity, website and marketing materials to launch the brand. The process involved extensive collaboration with the founding partners and consultation with the ocean technology sector.</p>
-				<p><a href="http://www.coveocean.com" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="http://www.coveocean.com" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
@@ -279,7 +279,6 @@
 				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Nova Scotia Balsam Fir Company</h3><br />
 				<h6>Name / Brand Development / Identity / Collateral / Web</h6>
 				<p>The Atlantic Canada Balsam Fir Partnership brings together decades of sales and export experience with millions of trees and products shipped worldwide. It is a newly formed alliance of major exporters operating under a strict set of standards to bring quality and consistency to the marketplace. The partnership required both a new name and a new brand identity to help put the Nova Scotia Balsam Fir on the world map. General Public developed the name, identity, brand and web guidelines, templates as well as strategic and branding counsel.</p>
-				<!--<p><a href="http://www.annualreport.iwk.nshealth.ca" target="_blank">Visit Site</a></p>-->
 			</div>
 		</div>
 	</div>
@@ -390,7 +389,7 @@
 				consulting creative director Cliff Thompson was involved in developing the creative strategy, collaborating in the
 				development of the UX and strategy. His extensive experience in working with the IWK Foundation and donor acquisition
 				helped inform the overall digital strategy, brand, user journey and KPI&#8217;s.</p>
-				<p><a href="https://www.iwkfoundation.org/" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://www.iwkfoundation.org/" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
@@ -451,7 +450,7 @@
 				StFX brand to a new digital experience. Involved from the initial research phase through to final deployment Cliff&#8217;s role
 				included concept and design direction, UX design direction, content development and direction as well as digital
 				strategy.</p>
-				<p><a href="http://www.stfx.ca" target="_blank">Visit Site</a></p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="http://www.stfx.ca" target="_blank">Visit Site</a></p>
 			</div>
 		</div>
 	</div>
