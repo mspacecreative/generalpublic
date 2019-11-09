@@ -796,7 +796,7 @@ Template Name: Home Page
 <?php endif;
 
 	if ( get_field('experience_text_colour') == 'dark' ): ?>
-	<article class="clearfix">
+	<article class="clearfix no-column-bg">
 	    
 	    <?php 
 		if( have_rows('experience_left_col') ):
@@ -857,7 +857,7 @@ Template Name: Home Page
 	</article>
 	
 	<?php elseif ( get_field('experience_text_colour') == 'light' ): ?>
-	<article class="clearfix">
+	<article class="clearfix no-column-bg">
 		    
 		<?php 
 		if( have_rows('experience_left_col') ):
