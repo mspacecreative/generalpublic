@@ -31,6 +31,10 @@ nav {
 	z-index: 4;
 }
 
+.black-text a {
+	color: #000;
+}
+
 .video-container {
     position: relative;
     height: 100vh;

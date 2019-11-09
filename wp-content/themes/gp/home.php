@@ -629,7 +629,7 @@ Template Name: Home Page
 
 			</div>
 
-			<div class="two-col clearfix white-text" style="margin-bottom: 25px;">
+			<div class="two-col clearfix" style="margin-bottom: 25px;">
 
 				<div class="l-col">
 				    
