@@ -1,3 +1,9 @@
+<style>
+	.theme-switch .portfolio h4 {
+		background: <?php the_field('colour_picker', 'options'); ?>;
+	}
+</style>
+
 <?php if ( get_field('colour_picker', 'options') ): ?>
 <div class="portfolio grid theme-switch">
 <div class="grid-sizer"></div>

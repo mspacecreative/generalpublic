@@ -101,10 +101,6 @@ nav ul li a {
 	background-color: #fff;;
 }
 
-.theme-switch .portfolio h4 {
-	background: <?php the_field('colour_picker', 'options'); ?>;
-}
-
 #what, #who, #experience {
 	background-position: center;
 	background-repeat: no-repeat;
