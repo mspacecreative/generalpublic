@@ -802,7 +802,7 @@ Template Name: Home Page
 		if( have_rows('experience_left_col') ):
 		while( have_rows('experience_left_col') ): the_row(); ?>
 
-		<div class="one-third dark-text">
+		<div class="one-third black-text">
 
 			<div class="inner">
 
@@ -823,7 +823,7 @@ Template Name: Home Page
 		if( have_rows('experience_right_col') ):
 		while( have_rows('experience_right_col') ): the_row(); ?>
 
-		<div class="two-third dark-text">
+		<div class="two-third black-text">
 
 			<div class="two-col clearfix no-margin">
 
