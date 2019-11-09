@@ -229,8 +229,9 @@ Template Name: Home Page
 
 <section id="what" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/subway-wall.jpg);">
 
-<?php endif; ?>
+<?php endif;
 
+	if ( get_field('what_text_colour') == 'dark' ): ?>
 	<article class="clearfix">
 		
 		<?php 
@@ -298,6 +299,142 @@ Template Name: Home Page
 		?>
 
 	</article>
+	
+	<?php elseif ( get_field('what_text_colour') == 'light' ): ?>
+	<article class="clearfix">
+			
+		<?php 
+		if( have_rows('left_col') ):
+		while( have_rows('left_col') ): the_row(); ?>
+	
+		<div class="one-third">
+	
+			<div class="inner white-text">
+	
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+				<?php the_sub_field('col_blurb'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php endwhile;
+		endif; ?>
+			
+		<?php 
+		if( have_rows('what_right_col') ):
+		while( have_rows('what_right_col') ): the_row(); ?>
+			
+		<div class="two-third">
+	
+			<div class="inner white-text">
+	
+				<?php the_sub_field('right_col_first_row'); ?>
+	
+			</div>
+				
+			<?php
+			$firstcol = get_sub_field('what_right_col_second_row_1');
+			$secondcol = get_sub_field('what_right_col_second_row_2');
+				
+			if ( $firstcol == true && $secondcol == true ): ?>
+				
+			<div class="two-col clearfix white-text inner" style="margin: 0;padding-top: 0;">
+	
+				<div class="l-col">
+					    
+					<?php echo $firstcol; ?>
+	
+				</div>
+	
+				<div class="r-col">
+					    
+					<?php echo $secondcol; ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php endif; ?>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+	
+	</article>
+	
+	<?php else : ?>
+	<article class="clearfix">
+			
+		<?php 
+		if( have_rows('left_col') ):
+		while( have_rows('left_col') ): the_row(); ?>
+	
+		<div class="one-third light-overlay">
+	
+			<div class="inner black-text">
+	
+				<h4><?php the_sub_field('col_title'); ?></h4>
+	
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+	
+				<?php the_sub_field('col_blurb'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php endwhile;
+		endif; ?>
+			
+		<?php 
+		if( have_rows('what_right_col') ):
+		while( have_rows('what_right_col') ): the_row(); ?>
+			
+		<div class="two-third light-overlay">
+	
+			<div class="inner black-text">
+	
+				<?php the_sub_field('right_col_first_row'); ?>
+	
+			</div>
+				
+			<?php
+			$firstcol = get_sub_field('what_right_col_second_row_1');
+			$secondcol = get_sub_field('what_right_col_second_row_2');
+				
+			if ( $firstcol == true && $secondcol == true ): ?>
+				
+			<div class="two-col clearfix black-text inner" style="margin: 0;padding-top: 0;">
+	
+				<div class="l-col">
+					    
+					<?php echo $firstcol; ?>
+	
+				</div>
+	
+				<div class="r-col">
+					    
+					<?php echo $secondcol; ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php endif; ?>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+	
+	</article>
+	
+	<?php endif; ?>
 
 </section>
 
