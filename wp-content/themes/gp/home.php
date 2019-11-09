@@ -545,7 +545,7 @@ Template Name: Home Page
 	
 		<div class="one-third">
 	
-			<div class="inner black-text">
+			<div class="inner white-text">
 	
 				<h4><?php the_sub_field('col_title'); ?></h4>
 				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
@@ -559,11 +559,11 @@ Template Name: Home Page
 		endwhile;
 		endif; ?>
 			
-		<?php if ( get_field('how_right_col') ): ?>
+			<?php if ( get_field('how_right_col') ): ?>
 	
 		<div class="two-third">
 	
-			<div class="inner black-text">
+			<div class="inner white-text">
 	
 				<?php the_field('how_right_col'); ?>
 	
