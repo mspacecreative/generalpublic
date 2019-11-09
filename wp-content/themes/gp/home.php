@@ -231,7 +231,7 @@ Template Name: Home Page
 
 <?php endif;
 
-	if ( get_field('what_text_colour') == 'dark' ): ?>
+	if ( get_field('text_colour_text_colour') == 'dark' ): ?>
 	<article class="clearfix">
 		
 		<?php 
@@ -300,7 +300,7 @@ Template Name: Home Page
 
 	</article>
 	
-	<?php elseif ( get_field('what_text_colour') == 'light' ): ?>
+	<?php elseif ( get_field('text_colour_text_colour') == 'light' ): ?>
 	<article class="clearfix">
 			
 		<?php 
