@@ -463,7 +463,7 @@ Template Name: Home Page
 		if( have_rows('how_left_col') ):
 		while( have_rows('how_left_col') ): the_row(); ?>
 	
-		<div class="one-third">
+		<div class="one-third light-overlay">
 	
 			<div class="inner black-text">
 	
@@ -481,7 +481,7 @@ Template Name: Home Page
 			
 		<?php if ( get_field('how_right_col') ): ?>
 	
-		<div class="two-third">
+		<div class="two-third light-overlay">
 	
 			<div class="inner black-text">
 	
