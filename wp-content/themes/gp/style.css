@@ -101,6 +101,10 @@ nav ul li a {
 	background-color: #fff;;
 }
 
+.grid p {
+	background-color: #f5f5f5;
+}
+
 #what, #who, #experience {
 	background-position: center;
 	background-repeat: no-repeat;
