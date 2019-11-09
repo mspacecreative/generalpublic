@@ -589,8 +589,9 @@ Template Name: Home Page
 
 <section id="who" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/orange-wall.jpg);">
 
-<?php endif; ?>
+<?php endif;
 
+	if ( get_field('who_text_colour') == 'dark' ): ?>
 	<article class="clearfix">
 	    
 	    <?php 
@@ -684,6 +685,98 @@ Template Name: Home Page
 		?>
 
 	</article>
+	
+	<?php elseif ( get_field('who_text_colour') == 'light' ): ?>
+	<article class="clearfix">
+		    
+		<?php 
+		if( have_rows('who_left_col') ):
+		while( have_rows('who_left_col') ): the_row(); ?>
+	
+		<div class="one-third">
+	
+			<div class="inner white-text">
+	
+				<h4><?php the_sub_field('col_title'); ?></h4>
+				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+				<?php the_sub_field('col_blurb'); ?>
+	
+			</div>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+			
+		<?php 
+		if( have_rows('who_right_col') ):
+		while( have_rows('who_right_col') ): the_row(); ?>
+	
+		<div class="two-third">
+	
+			<div class="inner white-text no-padding">
+	
+				<?php the_sub_field('who_right_col_first_row'); ?>
+	
+			</div>
+	
+			<div class="two-col clearfix white-text" style="margin-bottom: 25px;">
+	
+				<div class="l-col">
+					    
+					<?php the_sub_field('who_right_col_second_row_1'); ?>
+	
+				</div>
+	
+				<div class="r-col">
+					    
+					<?php the_sub_field('who_right_col_second_row_2'); ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
+			<div class="inner white-text no-padding">
+	
+				<?php the_sub_field('who_right_col_third_row'); ?>
+	
+			</div>
+			<?php endif; ?>
+				
+			<?php
+			$wholastrow1 = get_sub_field('who_right_col_last_row_1');
+			$wholastrow2 = get_sub_field('who_right_col_last_row_2');
+				
+			if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
+				
+			<div class="two-col clearfix white-text" style="margin-top: 0;">
+	
+				<div class="l-col">
+					    
+					<?php echo $wholastrow1; ?>
+	
+				</div>
+	
+				<div class="r-col">
+					    
+					<?php echo $wholastrow2; ?>
+	
+				</div>
+	
+			</div>
+				
+			<?php endif; ?>
+	
+		</div>
+			
+		<?php
+		endwhile;
+		endif; ?>
+	
+	</article>
+	<?php endif; ?>
 
 </section>
 
