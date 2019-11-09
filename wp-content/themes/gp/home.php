@@ -66,7 +66,7 @@ Template Name: Home Page
 	
 	<?php endif;
 	
-	if ( get_field('text_colour') == 'dark' ) ): ?>
+	if ( get_field('text_colour') == 'dark' ): ?>
 	<div class="content-container clearfix">
 		
 		<?php 
@@ -86,9 +86,9 @@ Template Name: Home Page
 		</div>
 		
 		<?php endwhile;
-		endif; ?>
+		endif;
 		
-		<?php if ( get_field('about_right_col') ): ?>
+		if ( get_field('about_right_col') ): ?>
 
 		<div class="two-third light-overlay">
 
@@ -104,7 +104,7 @@ Template Name: Home Page
 
 	</div>
 	
-	<?php elseif ( get_field('text_colour') == 'light' ) ): ?>
+	<?php elseif ( get_field('text_colour') == 'light' ): ?>
 	
 	<div class="content-container clearfix">
 			
@@ -125,9 +125,9 @@ Template Name: Home Page
 		</div>
 			
 		<?php endwhile;
-		endif; ?>
-			
-		<?php if ( get_field('about_right_col') ): ?>
+		endif;
+		
+		if ( get_field('about_right_col') ): ?>
 	
 		<div class="two-third">
 	
@@ -164,9 +164,9 @@ Template Name: Home Page
 		</div>
 			
 		<?php endwhile;
-		endif; ?>
-			
-		<?php if ( get_field('about_right_col') ): ?>
+		endif;
+		
+		if ( get_field('about_right_col') ): ?>
 	
 		<div class="two-third">
 	
