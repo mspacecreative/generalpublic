@@ -35,6 +35,10 @@ nav {
 	color: #000;
 }
 
+.no-column-bg .one-third, .no-column-bg .two-third {
+	background: none;
+}
+
 .video-container {
     position: relative;
     height: 100vh;
