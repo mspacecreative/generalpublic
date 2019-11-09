@@ -922,6 +922,6 @@
 
 <style>
 	.theme-switch .portfolio h4 {
-		background: <?php the_field('colour_picker'); ?>;
+		background: <?php the_field('colour_picker', 'options'); ?>;
 	}
 </style>
