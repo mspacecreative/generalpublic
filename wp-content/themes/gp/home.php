@@ -75,7 +75,7 @@ Template Name: Home Page
 		
 		<div class="one-third light-overlay">
 		
-			<div class="inner">
+			<div class="inner black-text">
 			
 				<h4><?php the_sub_field('col_title'); ?></h4>
 				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
@@ -92,7 +92,7 @@ Template Name: Home Page
 
 		<div class="two-third light-overlay">
 
-			<div class="inner">
+			<div class="inner black-text">
 
 				<?php the_field('about_right_col'); ?>
 
