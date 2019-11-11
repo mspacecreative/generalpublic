@@ -54,7 +54,7 @@ Template Name: Home Page
 
 <!--ABOUT US-->
 
-<section id="about" class="dzsparallaxer auto-init height-is-based-on-content" data-options='{ direction: "reverse"}'>
+<section id="about" class="dzsparallaxer auto-init height-is-based-on-content" data-options="{ direction: 'reverse'}">
     
 	<?php if ( get_field('about_us_bg_img') ): ?>
 	
