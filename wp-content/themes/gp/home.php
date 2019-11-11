@@ -62,7 +62,7 @@ Template Name: Home Page
 	
 	<?php else : ?>
 	
-	<div class="dzsparallaxer--target" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/blurred-crowd.jpg);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;"></div>
+	<div class="dzsparallaxer--target" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/blurred-crowd.jpg);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center; data-options='{ direction: "reverse"}'"></div>
 	
 	<?php endif;
 	
