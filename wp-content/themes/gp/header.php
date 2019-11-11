@@ -46,3 +46,9 @@
 			<?php endif; ?>
 		</header>
 		<!--NAVIGATION-->
+	
+	<style>
+		.custom-theme #sdrn_bar {
+			background: <?php the_field('colour_picker', 'options'); ?>!important;
+		}
+	</style>
