@@ -1,3 +1,10 @@
+(function($) {
+	if ( $('nav').hasClass('theme-switch') ) {
+		$('body').addClass('custom-theme');
+	}
+})(jQuery);
+
+
 /*
      _ _      _       _
  ___| (_) ___| | __  (_)___
