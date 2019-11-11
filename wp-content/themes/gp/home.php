@@ -58,7 +58,7 @@ Template Name: Home Page
     
 	<?php if ( get_field('about_us_bg_img') ): ?>
 	
-    <div class="dzsparallaxer--target" style="background-image: url(<?php the_field('about_us_bg_img'); ?>);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;"></div>
+    <div class="dzsparallaxer--target" style="background-image: url(<?php the_field('about_us_bg_img'); ?>);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;" data-options='{ direction: "reverse"}'></div>
 	
 	<?php else : ?>
 	
