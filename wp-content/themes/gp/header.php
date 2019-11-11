@@ -32,7 +32,7 @@
 		<!--NAVIGATION-->
 		<header>
 			<?php if ( get_field('colour_picker', 'options' ) ): ?>
-			<nav style="background-color: <?php the_field('colour_picker', 'options' ); ?>;">
+			<nav style="background-color: <?php the_field('colour_picker', 'options' ); ?>;" class="theme-switch">
 				<ul>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 				</ul>
