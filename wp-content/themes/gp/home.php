@@ -54,15 +54,15 @@ Template Name: Home Page
 
 <!--ABOUT US-->
 
-<section id="about" class="dzsparallaxer auto-init height-is-based-on-content">
+<section id="about" class="dzsparallaxer auto-init height-is-based-on-content" data-options='{ direction: "reverse"}'>
     
 	<?php if ( get_field('about_us_bg_img') ): ?>
 	
-    <div class="dzsparallaxer--target" style="background-image: url(<?php the_field('about_us_bg_img'); ?>);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;" data-options='{ direction: "reverse"}'></div>
+    <div class="dzsparallaxer--target" style="background-image: url(<?php the_field('about_us_bg_img'); ?>);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;"></div>
 	
 	<?php else : ?>
 	
-	<div class="dzsparallaxer--target" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/blurred-crowd.jpg);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center; data-options='{ direction: "reverse"}'"></div>
+	<div class="dzsparallaxer--target" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/blurred-crowd.jpg);height: 130%;background-repeat:no-repeat;background-size: cover;background-position:center;"></div>
 	
 	<?php endif;
 	
