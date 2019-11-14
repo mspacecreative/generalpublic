@@ -15,13 +15,13 @@ Template Name: Home Page
 <!--VIDEO-->
 
 <div class="video-container">
-    <video preload="none" poster="<?php bloginfo('template_url'); ?>/images/home-page-poster.jpg" autoplay loop muted playsinline>
+    <video preload="none" poster="<?php bloginfo('template_url'); ?>/video/poster/gp-partners-poster.jpg" autoplay loop muted playsinline>
 
-	<source src="<?php bloginfo('template_url'); ?>/video/gp-home-video.mp4" type="video/mp4">
+	<source src="<?php bloginfo('template_url'); ?>/video/gp-partners-video.mp4" type="video/mp4">
 
-	<source src="<?php bloginfo('template_url'); ?>/video/gp-home-video.webm" type="video/webm">
+	<!--<source src="<?php bloginfo('template_url'); ?>/video/gp-home-video.webm" type="video/webm">
 
-	<source src="<?php bloginfo('template_url'); ?>/video/gp_home_video.ogv" type="video/ogv">
+	<source src="<?php bloginfo('template_url'); ?>/video/gp_home_video.ogv" type="video/ogv">-->
 
 </video>
 </div>
