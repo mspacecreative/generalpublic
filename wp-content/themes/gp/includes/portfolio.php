@@ -57,6 +57,30 @@
 	</div>
 	<!-- / GIANT TIGER -->
 	
+	<!-- AISC -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h4>
+		<p>Communications Planning / Design / Website / Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h3><br />
+				<h6>Communications Planning / Design / Website / Video</h6>
+				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
+				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
+				</p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://aisc.ca/" target="_blank">Visit Site</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- / AISC -->
+	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
@@ -568,6 +592,30 @@
 		</div>
 	</div>
 	<!-- / GIANT TIGER -->
+	
+	<!-- AISC -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
+		</a>
+		
+		<h4>Association of Industry Sector Councils</h4>
+		<p>Communications Planning / Design / Website / Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="blurb">
+				<h3>Association of Industry Sector Councils</h3><br />
+				<h6>Communications Planning / Design / Website / Video</h6>
+				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
+				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
+				</p>
+				<p><a href="https://aisc.ca/" target="_blank">Visit Site</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- / AISC -->
 	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
