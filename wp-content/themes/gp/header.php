@@ -31,7 +31,7 @@
 	
 		<!--NAVIGATION-->
 		<header>
-			<nav style="background-color: #001970;">
+			<nav style="background-color: #fff;">
 				<ul>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 				</ul>
@@ -41,6 +41,6 @@
 	
 	<style>
 		.custom-theme #sdrn_bar {
-			background: #001970!important;
+			background: #fff!important;
 		}
 	</style>
