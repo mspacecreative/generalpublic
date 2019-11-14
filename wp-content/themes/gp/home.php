@@ -991,6 +991,18 @@ Template Name: Home Page
 			
 			<li class="logo-box">
 			
+				<img src="<?php bloginfo('template_url'); ?>/images/client-logos/innovasea-logo.png" style="padding: 25px;" />
+			
+			</li>
+			
+			<li class="logo-box">
+			
+				<img src="<?php bloginfo('template_url'); ?>/images/client-logos/giant-tiger-logo.png" style="padding: 25px;" />
+			
+			</li>
+			
+			<li class="logo-box">
+			
 							<img src="<?php bloginfo('template_url'); ?>/images/client-logos/proteoform.png" style="padding: 25px;" />
 			
 						</li>
