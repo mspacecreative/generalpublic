@@ -351,6 +351,10 @@ p, .dv-panel p {
 	color: #001871!important;
 }
 
+body #sdrn_bar .menu_title {
+	color: #001871;
+}
+
 #sdrn_bar .menu_title {
 	line-height: normal!important;
 }
