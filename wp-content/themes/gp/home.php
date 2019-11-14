@@ -44,7 +44,7 @@ Template Name: Home Page
 
 <div id="logo">
 
-	<img src="<?php bloginfo('template_url'); ?>/images/logo.png" />
+	<img src="<?php bloginfo('template_url'); ?>/images/branding/general-public-partners.svg" />
 
 </div>
 
