@@ -31,24 +31,16 @@
 	
 		<!--NAVIGATION-->
 		<header>
-			<?php if ( get_field('colour_picker', 'options' ) ): ?>
-			<nav style="background-color: <?php the_field('colour_picker', 'options' ); ?>;" class="theme-switch">
+			<nav style="background-color: #001970;">
 				<ul>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 				</ul>
 			</nav>
-			<?php else : ?>
-			<nav>
-				<ul>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
-				</ul>
-			</nav>
-			<?php endif; ?>
 		</header>
 		<!--NAVIGATION-->
 	
 	<style>
 		.custom-theme #sdrn_bar {
-			background: <?php the_field('colour_picker', 'options'); ?>!important;
+			background: #001970!important;
 		}
 	</style>
