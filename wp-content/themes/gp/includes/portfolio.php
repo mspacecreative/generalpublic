@@ -7,7 +7,7 @@
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
 		<a>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/innovasea/innovasea_tradeshow_backdrop.png" alt="Innovasea" />
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/innovasea/innovasea-thumb.jpg" alt="Innovasea" />
 		</a>
 		
 		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Innovasea</h4>
