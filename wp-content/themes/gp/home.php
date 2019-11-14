@@ -223,7 +223,7 @@ Template Name: Home Page
 <!--WHAT WE DO-->
 
 <?php if ( get_field('what_we_do_bg_img') ): ?>
-<section id="what" style="background-image: url(<?php the_field('about_us_bg_img'); ?>);">
+<section id="what" style="background-image: url(<?php the_field('what_we_do_bg_img'); ?>);">
 
 <?php else : ?>
 
