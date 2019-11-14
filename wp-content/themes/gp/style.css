@@ -346,8 +346,9 @@ p, .dv-panel p {
 
 #sdrn_bar {
 	text-align: center!important;
-	background: url('images/mobile-nav-bg.jpg') repeat-x left top!important;
+	background-color: #fff!important;
 	z-index: 999999!important;
+	color: #001871!important;
 }
 
 #sdrn_bar .menu_title {
