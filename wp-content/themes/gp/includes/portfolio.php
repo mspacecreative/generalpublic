@@ -15,7 +15,7 @@
 		
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider innovasea-slider">
+			<div class="slider gem-slider">
 				<iframe id="video-frame-11" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			 
 			    <iframe id="video-frame-12" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -42,7 +42,7 @@
 		
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider">
+			<div class="slider gem-slider">
 				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			 
 			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -528,7 +528,7 @@
 		
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider innovasea-slider">
+			<div class="slider gem-slider">
 				<iframe id="video-frame-7" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			 
 			    <iframe id="video-frame-8" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -554,7 +554,7 @@
 		
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider">
+			<div class="slider gem-slider">
 				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			 
 			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
