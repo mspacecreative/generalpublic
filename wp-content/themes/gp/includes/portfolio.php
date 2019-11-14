@@ -3,6 +3,32 @@
 <div class="grid-sizer"></div>
 <div class="gutter-sizer"></div>
 	
+	<!-- Innovasea -->
+	
+	<!-- / Innovasea -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/innovasea/innovasea_tradeshow_backdrop.png" alt="Innovasea" />
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Innovasea</h4>
+		<p>Collateral / Video / 3D Animation / Infographic / Photography / Tradeshow / Design</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider innovasea-slider">
+				<iframe id="video-frame-11" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-12" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Innovasea</h3><br />
+				<h6>Collateral / Video / 3D Animation / Infographic / Photography / Tradeshow / Design</h6>
+				<p>A pioneer of open ocean aquaculture, Innovasea a complete solution for data-driven fish farming and fish tracking. We were engaged to produce a marketing video to highlight the expertise of Innovasea, which took us on shoots to Rhode Island, Panama and Mexico, using a combination of underwater, aerials and surface footage to showcase Innovasea’s egg-to-harvest capability. General Public &amp; Partners has continued its collaboration producing a range of content assets, including bilingual brochures, tradeshow backdrops, infographics, multiple animations and videos, and identity design.</p>
+			</div>
+		</div>
+	</div>
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
@@ -461,6 +487,32 @@
 <div class="portfolio grid">
 <div class="grid-sizer"></div>
 <div class="gutter-sizer"></div>
+	
+	<!-- Innovasea -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/innovasea/innovasea_tradeshow_backdrop.png" alt="Innovasea" />
+		</a>
+		
+		<h4>Innovasea</h4>
+		<p>Collateral / Video / 3D Animation / Infographic / Photography / Tradeshow / Design</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider innovasea-slider">
+				<iframe id="video-frame-7" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-8" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Innovasea</h3><br />
+				<h6>Collateral / Video / 3D Animation / Infographic / Photography / Tradeshow / Design</h6>
+				<p>A pioneer of open ocean aquaculture, Innovasea a complete solution for data-driven fish farming and fish tracking. We were engaged to produce a marketing video to highlight the expertise of Innovasea, which took us on shoots to Rhode Island, Panama and Mexico, using a combination of underwater, aerials and surface footage to showcase Innovasea’s egg-to-harvest capability. General Public &amp; Partners has continued its collaboration producing a range of content assets, including bilingual brochures, tradeshow backdrops, infographics, multiple animations and videos, and identity design.</p>
+			</div>
+		</div>
+	</div>
+	<!-- / Innovasea -->
 	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
