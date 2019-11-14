@@ -69,6 +69,11 @@
 		
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider">
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-1.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-2.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-3.jpg" alt="AISC" /></div>
+			</div>
 			<div class="blurb">
 				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h3><br />
 				<h6>Communications Planning / Design / Website / Video</h6>
