@@ -4,8 +4,6 @@
 <div class="gutter-sizer"></div>
 	
 	<!-- Innovasea -->
-	
-	<!-- / Innovasea -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
 		<a>
@@ -29,6 +27,36 @@
 			</div>
 		</div>
 	</div>
+	<!-- / Innovasea -->
+	
+	<!-- GIANT TIGER -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
+			
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h4>
+		<p>Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider">
+				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h3><br />
+				<h6>Video</h6>
+				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- / GIANT TIGER -->
+	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
@@ -513,6 +541,33 @@
 		</div>
 	</div>
 	<!-- / Innovasea -->
+	
+	<!-- GIANT TIGER -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
+		</a>
+		
+		<h4>Giant Tiger</h4>
+		<p>Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider">
+				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3>Giant Tiger</h3><br />
+				<h6>Video</h6>
+				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- / GIANT TIGER -->
 	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">

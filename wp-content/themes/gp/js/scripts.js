@@ -2629,6 +2629,8 @@ jQuery(document).ready(function($) {
 	var idPlayer10 = new Vimeo.Player('video-frame-10');
 	var idPlayer11 = new Vimeo.Player('video-frame-11');
 	var idPlayer12 = new Vimeo.Player('video-frame-12');
+	var idPlayer13 = new Vimeo.Player('video-frame-13');
+	var idPlayer14 = new Vimeo.Player('video-frame-14');
 	
 	$('.close').on("click", function() {
 	   idPlayer1.unload();
@@ -2643,6 +2645,8 @@ jQuery(document).ready(function($) {
 	   idPlayer10.unload();
 	   idPlayer11.unload();
 	   idPlayer12.unload();
+	   idPlayer13.unload();
+	   idPlayer14.unload();
 	});
 	
 	idPlayer1.getPlayed().then(function(played) {
@@ -2766,55 +2770,25 @@ jQuery(document).ready(function($) {
 	
 	});
 	
-	/*
-	var vid1=new Vimeo.Player($('.vid-one'));
-	var vid2=new Vimeo.Player($('.vid-two'));
-	var vid3=new Vimeo.Player($('.vid-three'));
-	var vid4=new Vimeo.Player($('.vid-four'));
-	var vid4=new Vimeo.Player($('.vid-five'));
-	
-	$('.slick-dots li:nth-child(2)').click(function() {
-	    vid1.pause();
-	    vid3.pause();
-	    vid4.pause();
-	    vid5.pause();
+	idPlayer13.getPlayed().then(function(played) {
+	    $('.slick-prev, .slick-next, .slick-dots li').click(function() {
+	        if(played){
+				idPlayer13.pause();
+	        } else {
+				idPlayer13.play();
+	        }
+	    });
 	});
 	
-	var Froogaloop=function(){function e(a){return new e.fn.init(a)}function g(a,c,b){if(!b.contentWindow.postMessage)return!1;a=JSON.stringify({method:a,value:c});b.contentWindow.postMessage(a,h)}function l(a){var c,b;try{c=JSON.parse(a.data),b=c.event||c.method}catch(e){}"ready"!=b||k||(k=!0);if(!/^https?:\/\/player.vimeo.com/.test(a.origin))return!1;"*"===h&&(h=a.origin);a=c.value;var m=c.data,f=""===f?null:c.player_id;c=f?d[f][b]:d[b];b=[];if(!c)return!1;void 0!==a&&b.push(a);m&&b.push(m);f&&b.push(f);
-return 0<b.length?c.apply(null,b):c.call()}function n(a,c,b){b?(d[b]||(d[b]={}),d[b][a]=c):d[a]=c}var d={},k=!1,h="*";e.fn=e.prototype={element:null,init:function(a){"string"===typeof a&&(a=document.getElementById(a));this.element=a;return this},api:function(a,c){if(!this.element||!a)return!1;var b=this.element,d=""!==b.id?b.id:null,e=c&&c.constructor&&c.call&&c.apply?null:c,f=c&&c.constructor&&c.call&&c.apply?c:null;f&&n(a,f,d);g(a,e,b);return this},addEvent:function(a,c){if(!this.element)return!1;
-var b=this.element,d=""!==b.id?b.id:null;n(a,c,d);"ready"!=a?g("addEventListener",a,b):"ready"==a&&k&&c.call(null,d);return this},removeEvent:function(a){if(!this.element)return!1;var c=this.element,b=""!==c.id?c.id:null;a:{if(b&&d[b]){if(!d[b][a]){b=!1;break a}d[b][a]=null}else{if(!d[a]){b=!1;break a}d[a]=null}b=!0}"ready"!=a&&b&&g("removeEventListener",a,c)}};e.fn.init.prototype=e.fn;window.addEventListener?window.addEventListener("message",l,!1):window.attachEvent("onmessage",l);return window.Froogaloop=
-window.$f=e}();
-
-    var iframe1 = document.getElementById('video-frame-1');
-	var iframe2 = document.getElementById('video-frame-2');
-	var iframe3 = document.getElementById('video-frame-3');
-	var iframe4 = document.getElementById('video-frame-4');
-	var iframe5 = document.getElementById('video-frame-5');
 	
-	var player1 = $f(iframe1);
-	var player2 = $f(iframe2);
-	var player3 = $f(iframe3);
-	var player4 = $f(iframe4);
-	var player5 = $f(iframe5);
+	idPlayer14.getPlayed().then(function(played) {
+	    $('.slick-prev, .slick-next, .slick-dots li').click(function() {
+	        if(played){
+	            idPlayer14.pause();
+	        } else {
+				idPlayer14.play();
+	        }
+	    });
 	
-	var iframe6 = document.getElementById('video-frame-6');
-	
-	var player6 = $f(iframe6);
-	
-	var pauseButton1 = document.getElementById("close-frame");
-	
-	pauseButton1.addEventListener("click", function() {
-	  player6.api("unload");
 	});
-	
-	var iframe7 = document.getElementById('video-frame-7');
-	
-	var player7 = $f(iframe7);
-	
-	var pauseButton2 = document.getElementById("soccer-close");
-	
-	pauseButton2.addEventListener("click", function() {
-	  player7.api("unload");
-	});
-	*/
 });
