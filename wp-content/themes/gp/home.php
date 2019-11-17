@@ -983,11 +983,11 @@ Template Name: Home Page
 
 		<ul class="logo-container clearfix" style="list-style: none;">
 		
-			<li class="logo-box">
+			<!--<li class="logo-box">
 			
 				<img src="<?php bloginfo('template_url'); ?>/images/client-logos/bcc-logo.png" style="padding: 25px;" />
 			
-			</li>
+			</li>-->
 			
 			<li class="logo-box">
 			
