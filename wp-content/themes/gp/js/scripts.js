@@ -2793,11 +2793,11 @@ jQuery(document).ready(function($) {
 	});
 	
 	$('.faq-container').click(function() {
-		    if( $(this).data('clicked')) {
-		        $(this).parent().parent().parent().parent().css('height', 'auto');
-		    }
-		    else {
-		        $(this).parent().parent().parent().parent().css('height', '100vh');
-		    }
+		if ( $('.faq-container').data('clicked') ) {
+			$('.faq-container').parent().parent().parent().parent().css('height', 'auto');
+		}
+		else {
+			$('.faq-container').parent().parent().parent().parent().css('height', '100vh');
+		}
 	});
 });
