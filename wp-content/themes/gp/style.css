@@ -653,8 +653,10 @@ video {
         flex-direction: column;
         flex-basis: 55%;
     }
-	#about .content-container, #what article, #how .content-container {
+	#about .content-container, #what article, #how .content-container, #who article, #experience article, #clients article {
 		height: 100vh;
+	}
+	#about .content-container, #what article, #how .content-container {
 		padding: 15% 0;
 	}
 	#who article {
