@@ -623,30 +623,32 @@ Template Name: Home Page
 
 		<div class="two-third black-text">
 
-			<div class="inner no-padding">
+			<div class="mobile-inner-padding">
 
 				<?php the_sub_field('who_right_col_first_row'); ?>
 
 			</div>
 
-			<div class="two-col clearfix" style="margin-bottom: 25px;">
+			<div class="two-col" style="margin-bottom: 25px;">
 
-				<div class="l-col">
-				    
-				    <?php the_sub_field('who_right_col_second_row_1'); ?>
-
-				</div>
-
-				<div class="r-col">
-				    
-				    <?php the_sub_field('who_right_col_second_row_2'); ?>
-
+				<div class="mobile-inner-padding clearfix">
+					<div class="l-col">
+					    
+					    <?php the_sub_field('who_right_col_second_row_1'); ?>
+	
+					</div>
+	
+					<div class="r-col">
+					    
+					    <?php the_sub_field('who_right_col_second_row_2'); ?>
+	
+					</div>
 				</div>
 
 			</div>
 			
 			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
-			<div class="inner no-padding">
+			<div class="mobile-inner-padding">
 
 				<?php the_sub_field('who_right_col_third_row'); ?>
 
@@ -661,16 +663,18 @@ Template Name: Home Page
 			
 			<div class="two-col clearfix" style="margin-top: 0;">
 
-				<div class="l-col">
-				    
-				    <?php echo $wholastrow1; ?>
-
-				</div>
-
-				<div class="r-col">
-				    
-				    <?php echo $wholastrow2; ?>
-
+				<div class="mobile-inner-padding clearfix">
+					<div class="l-col">
+					    
+					    <?php echo $wholastrow1; ?>
+	
+					</div>
+	
+					<div class="r-col">
+					    
+					    <?php echo $wholastrow2; ?>
+	
+					</div>
 				</div>
 
 			</div>
@@ -695,7 +699,7 @@ Template Name: Home Page
 	
 		<div class="one-third">
 	
-			<div class="inner white-text">
+			<div class="mobile-inner-padding white-text">
 	
 				<h4><?php the_sub_field('col_title'); ?></h4>
 				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
@@ -715,30 +719,32 @@ Template Name: Home Page
 	
 		<div class="two-third">
 	
-			<div class="inner white-text no-padding">
+			<div class="mobile-inner-padding white-text">
 	
 				<?php the_sub_field('who_right_col_first_row'); ?>
 	
 			</div>
 	
-			<div class="two-col clearfix white-text" style="margin-bottom: 25px;">
+			<div class="two-col white-text" style="margin-bottom: 25px;">
 	
-				<div class="l-col">
-					    
-					<?php the_sub_field('who_right_col_second_row_1'); ?>
-	
-				</div>
-	
-				<div class="r-col">
-					    
-					<?php the_sub_field('who_right_col_second_row_2'); ?>
-	
+				<div class="mobile-inner-padding clearfix white-text">
+					<div class="l-col">
+						    
+						<?php the_sub_field('who_right_col_second_row_1'); ?>
+		
+					</div>
+		
+					<div class="r-col">
+						    
+						<?php the_sub_field('who_right_col_second_row_2'); ?>
+		
+					</div>
 				</div>
 	
 			</div>
 				
 			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
-			<div class="inner white-text no-padding">
+			<div class="mobile-inner-padding white-text">
 	
 				<?php the_sub_field('who_right_col_third_row'); ?>
 	
@@ -751,18 +757,20 @@ Template Name: Home Page
 				
 			if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
 				
-			<div class="two-col clearfix white-text" style="margin-top: 0;">
+			<div class="two-col white-text" style="margin-top: 0;">
 	
-				<div class="l-col">
-					    
-					<?php echo $wholastrow1; ?>
-	
-				</div>
-	
-				<div class="r-col">
-					    
-					<?php echo $wholastrow2; ?>
-	
+				<div class="mobile-inner-padding clearfix white-text">
+					<div class="l-col">
+						    
+						<?php echo $wholastrow1; ?>
+		
+					</div>
+		
+					<div class="r-col">
+						    
+						<?php echo $wholastrow2; ?>
+		
+					</div>
 				</div>
 	
 			</div>

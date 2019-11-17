@@ -500,6 +500,10 @@ html span.dv-member-name {
 	max-width: 75px;
 }
 
+.mobile-inner-padding {
+	padding: 20px;
+}
+
 .logo-container-2 .logo-box, .logo-box {
 	margin-bottom: 30px;
 	margin-right: 0;
@@ -638,9 +642,6 @@ video {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-    }
-    .no-padding {
-    	padding: 0;
     }
     #about .content-container .one-third, #what article .one-third, #how .content-container .one-third {
         flex-direction: column;
