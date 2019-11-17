@@ -2791,4 +2791,14 @@ jQuery(document).ready(function($) {
 	    });
 	
 	});
+	
+	$('.faq-container').click(function() {
+		var $this = $(this);
+		    if($this.data('clicked')) {
+		        $this.parents('article').css('height', 'auto');
+		    }
+		    else {
+		        $this.parents('article').css('height', '100vh');
+		    }
+	});
 });
