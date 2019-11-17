@@ -810,7 +810,7 @@ Template Name: Home Page
 		if( have_rows('experience_left_col') ):
 		while( have_rows('experience_left_col') ): the_row(); ?>
 
-		<div class="one-third black-text">
+		<div class="one-third black-text mobile-inner-padding">
 
 			<div class="inner">
 
@@ -833,7 +833,7 @@ Template Name: Home Page
 
 		<div class="two-third black-text">
 
-			<div class="two-col clearfix no-margin">
+			<div class="two-col clearfix no-margin mobile-inner-padding">
 
 				<div class="l-col">
 				    
@@ -871,7 +871,7 @@ Template Name: Home Page
 		if( have_rows('experience_left_col') ):
 		while( have_rows('experience_left_col') ): the_row(); ?>
 	
-		<div class="one-third dark-text">
+		<div class="one-third dark-text mobile-inner-padding">
 	
 			<div class="inner white-text">
 				<h4><?php the_sub_field('col_title'); ?></h4>
@@ -888,7 +888,7 @@ Template Name: Home Page
 		if( have_rows('experience_right_col') ):
 		while( have_rows('experience_right_col') ): the_row(); ?>
 	
-		<div class="two-third dark-text">
+		<div class="two-third dark-text mobile-inner-padding">
 	
 			<div class="two-col clearfix white-text no-margin">
 	
@@ -927,7 +927,7 @@ Template Name: Home Page
 		if( have_rows('experience_left_col') ):
 		while( have_rows('experience_left_col') ): the_row(); ?>
 	
-		<div class="one-third dark-text">
+		<div class="one-third dark-text mobile-inner-padding">
 	
 			<div class="inner white-text">
 				<h4><?php the_sub_field('col_title'); ?></h4>
@@ -944,7 +944,7 @@ Template Name: Home Page
 		if( have_rows('experience_right_col') ):
 		while( have_rows('experience_right_col') ): the_row(); ?>
 	
-		<div class="two-third dark-text">
+		<div class="two-third dark-text mobile-inner-padding">
 	
 			<div class="two-col clearfix white-text no-margin">
 	
