@@ -653,6 +653,19 @@ video {
         flex-direction: column;
         flex-basis: 55%;
     }
+	#about .content-container, #what article, #how .content-container {
+		height: 100vh;
+		padding: 15% 0;
+	}
+	#who article {
+		padding: 12% 0;
+	}
+	#experience article {
+		padding: 10% 0;
+	}
+	#clients article {
+		padding: 8% 0;
+	}
 }
 
 /*radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);*/
