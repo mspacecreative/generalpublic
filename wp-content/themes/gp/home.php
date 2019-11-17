@@ -997,7 +997,7 @@ Template Name: Home Page
 			
 			<li class="logo-box">
 			
-				<img src="<?php bloginfo('template_url'); ?>/images/client-logos/giant-tiger-logo.png" style="padding: 25px;" />
+				<img class="client-logo-max-width-150" src="<?php bloginfo('template_url'); ?>/images/client-logos/giant-tiger-logo.png" style="padding: 25px;" />
 			
 			</li>
 			

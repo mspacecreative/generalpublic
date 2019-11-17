@@ -348,6 +348,10 @@ p, .dv-panel p {
 	line-height: 24px;
 }
 
+.client-logo-max-width-150 {
+	max-width: 150px;
+}
+
 #sdrn_bar {
 	text-align: center!important;
 	background-color: #fff!important;
