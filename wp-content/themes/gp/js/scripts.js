@@ -2794,10 +2794,10 @@ jQuery(document).ready(function($) {
 	
 	$('.faq-container').click(function() {
 		if ( $('.faq-container').data('clicked') ) {
-			$('.faq-container').parent().parent().parent().parent().css('height', 'auto');
+			$('.faq-container').parent().parent().parent().parent().css('height', '100vh');
 		}
 		else {
-			$('.faq-container').parent().parent().parent().parent().css('height', '100vh');
+			$('.faq-container').parent().parent().parent().parent().css('height', 'auto');
 		}
 	});
 });
