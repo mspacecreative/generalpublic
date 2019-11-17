@@ -194,7 +194,7 @@ a {
 }
 
 .one-third.lighter, .two-third.lighter {
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .35);
 }
 
 #featured article, #how .content-container, #who article, #experience article, #clients article {
@@ -441,7 +441,7 @@ html span.dv-member-name {
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .logo-box:last-child {
 	margin-right: 0;

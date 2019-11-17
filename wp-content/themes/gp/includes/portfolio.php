@@ -88,6 +88,32 @@
 	</div>
 	<!-- / GIANT TIGER -->
 	
+	<!-- Heating Assistance Rebate Program (HARP) -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/harp/heating-assistance-rebate-program.jpg" alt="Heating Assistance Rebate Program" />
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Heating Assistance Rebate Program (HARP)</h4>
+		<p>Digital Banners / Social / Video Screens / Print</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider gem-slider">
+				<iframe id="video-frame-15" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-16" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Heating Assistance Rebate Program (HARP)</h3><br />
+				<h6>Digital Banners / Social / Video Screens / Print</h6>
+				<p>The Heating Assistance Rebate Program (HARP) helps lower-income Nova Scotians with the cost of home heating. Working with Communications Nova Scotia we developed the creative concepts and assets for the launch and ongoing campaign. The campaign has evolved over the past few years from initially focusing on online registration to updating residents on the HARP program in general. The work has included print for newspapers, video for in-store screens as well as a variety of digital and social elements.</p>
+			</div>
+		</div>
+	</div>
+	<!-- / Heating Assistance Rebate Program (HARP) -->
+	
 	<!-- GEM RETIREMENT LIVING -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
