@@ -224,17 +224,16 @@ a {
 	margin-top: 0;
 }
 
-section#experience p {
+#experience p {
 	font-size: 14px;
 	margin: 5px 0;
 	line-height: 20px;
 }
 
-section#what article {
+#what article {
 	width: 90%;
 	max-width: 1080px;
 	margin: auto;
-	padding: 10% 0 20% 0;
 }
 
 .one-third {
