@@ -238,7 +238,7 @@ Template Name: Home Page
 		if( have_rows('left_col') ):
 		while( have_rows('left_col') ): the_row(); ?>
 
-		<div class="one-third light-overlay lighter">
+		<div class="one-third light-overlay">
 
 			<div class="inner black-text">
 
@@ -259,7 +259,7 @@ Template Name: Home Page
 		if( have_rows('what_right_col') ):
 		while( have_rows('what_right_col') ): the_row(); ?>
 		
-		<div class="two-third light-overlay lighter">
+		<div class="two-third light-overlay">
 
 			<div class="inner black-text">
 
@@ -307,7 +307,7 @@ Template Name: Home Page
 		if( have_rows('left_col') ):
 		while( have_rows('left_col') ): the_row(); ?>
 	
-		<div class="one-third">
+		<div class="one-third lighter">
 	
 			<div class="inner white-text">
 	
@@ -326,7 +326,7 @@ Template Name: Home Page
 		if( have_rows('what_right_col') ):
 		while( have_rows('what_right_col') ): the_row(); ?>
 			
-		<div class="two-third">
+		<div class="two-third lighter">
 	
 			<div class="inner white-text">
 	
