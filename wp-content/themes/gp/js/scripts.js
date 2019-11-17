@@ -2631,8 +2631,8 @@ jQuery(document).ready(function($) {
 	var idPlayer12 = new Vimeo.Player('video-frame-12');
 	var idPlayer13 = new Vimeo.Player('video-frame-13');
 	var idPlayer14 = new Vimeo.Player('video-frame-14');
-	var idPlayer13 = new Vimeo.Player('video-frame-15');
-	var idPlayer14 = new Vimeo.Player('video-frame-16');
+	var idPlayer15 = new Vimeo.Player('video-frame-15');
+	var idPlayer16 = new Vimeo.Player('video-frame-16');
 	
 	$('.close').on("click", function() {
 	   idPlayer1.unload();
