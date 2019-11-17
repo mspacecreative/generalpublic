@@ -1,10 +1,3 @@
-(function($) {
-	if ( $('nav').hasClass('theme-switch') ) {
-		$('body').addClass('custom-theme');
-	}
-})(jQuery);
-
-
 /*
      _ _      _       _
  ___| (_) ___| | __  (_)___
@@ -2826,4 +2819,8 @@ jQuery(document).ready(function($) {
 			$('.faq-container').parent().parent().parent().parent().css('height', 'auto');
 		}
 	});
+	
+	if ( $('nav').hasClass('theme-switch') ) {
+		$('body').addClass('custom-theme');
+	}
 });
