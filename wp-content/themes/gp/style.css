@@ -197,8 +197,15 @@ a {
     background: rgba(0, 0, 0, .35);
 }
 
-#featured article, #how .content-container, #who article, #experience article, #clients article {
+#how .content-container, #who article, #experience article, #clients article {
 	padding: 10% 0 15% 0;
+	width: 90%;
+	max-width: 1080px;
+	margin: auto;
+}
+
+#featured article {
+	padding: 10% 0;
 	width: 90%;
 	max-width: 1080px;
 	margin: auto;
