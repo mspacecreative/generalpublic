@@ -98,7 +98,7 @@ nav ul li a {
 }
 
 #featured {
-	background-color: #f4f4f4;
+	background-color: #e5e5e5;
 }
 
 .portfolio .grid-item p {
@@ -191,6 +191,10 @@ a {
 
 .one-third.light-overlay, .two-third.light-overlay {
 	background: rgba(255, 255, 255, .6);
+}
+
+.one-third.lighter, .two-third.lighter {
+    background: rgba(0, 0, 0, .4);
 }
 
 #featured article, #how .content-container, #who article, #experience article, #clients article {

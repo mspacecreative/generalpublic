@@ -29,63 +29,6 @@
 	</div>
 	<!-- / Innovasea -->
 	
-	<!-- GIANT TIGER -->
-	<div class="grid-item">
-	<i class="fa fa-plus"></i>
-		<a>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
-			
-		</a>
-		
-		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h4>
-		<p>Video</p>
-		
-		<div class="port-panel">
-		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider gem-slider">
-				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			 
-			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			</div>
-			<div class="blurb">
-				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h3><br />
-				<h6>Video</h6>
-				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- / GIANT TIGER -->
-	
-	<!-- AISC -->
-	<div class="grid-item">
-	<i class="fa fa-plus"></i>
-		<a>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
-		</a>
-		
-		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h4>
-		<p>Communications Planning / Design / Website / Video</p>
-		
-		<div class="port-panel">
-		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider">
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-1.jpg" alt="AISC" /></div>
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-2.jpg" alt="AISC" /></div>
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-3.jpg" alt="AISC" /></div>
-			</div>
-			<div class="blurb">
-				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h3><br />
-				<h6>Communications Planning / Design / Website / Video</h6>
-				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
-				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
-				</p>
-				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://aisc.ca/" target="_blank">Visit Site</a></p>
-			</div>
-		</div>
-	</div>
-	<!-- / AISC -->
-	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
@@ -116,6 +59,34 @@
 		</div>
 	</div>
 	<!-- / PROTEOFORM -->
+	
+	<!-- GIANT TIGER -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
+			
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h4>
+		<p>Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider gem-slider">
+				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Giant Tiger</h3><br />
+				<h6>Video</h6>
+				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- / GIANT TIGER -->
 	
 	<!-- GEM RETIREMENT LIVING -->
 	<div class="grid-item">
@@ -539,6 +510,35 @@
 	</div>
 	<!-- END ST. FX UNIVERSITY -->
 	
+	<!-- AISC -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
+		</a>
+		
+		<h4 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h4>
+		<p>Communications Planning / Design / Website / Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider">
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-1.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-2.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-3.jpg" alt="AISC" /></div>
+			</div>
+			<div class="blurb">
+				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Association of Industry Sector Councils</h3><br />
+				<h6>Communications Planning / Design / Website / Video</h6>
+				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
+				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
+				</p>
+				<p><a style="background: <?php the_field('colour_picker', 'options'); ?>" href="https://aisc.ca/" target="_blank">Visit Site</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- / AISC -->
+	
 </div>
 <?php else : ?>
 <div class="portfolio grid">
@@ -571,62 +571,6 @@
 	</div>
 	<!-- / Innovasea -->
 	
-	<!-- GIANT TIGER -->
-	<div class="grid-item">
-	<i class="fa fa-plus"></i>
-		<a>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
-		</a>
-		
-		<h4>Giant Tiger</h4>
-		<p>Video</p>
-		
-		<div class="port-panel">
-		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider gem-slider">
-				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			 
-			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-			</div>
-			<div class="blurb">
-				<h3>Giant Tiger</h3><br />
-				<h6>Video</h6>
-				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- / GIANT TIGER -->
-	
-	<!-- AISC -->
-	<div class="grid-item">
-	<i class="fa fa-plus"></i>
-		<a>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
-		</a>
-		
-		<h4>Association of Industry Sector Councils</h4>
-		<p>Communications Planning / Design / Website / Video</p>
-		
-		<div class="port-panel">
-		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
-			<div class="slider">
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-1.jpg" alt="AISC" /></div>
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-2.jpg" alt="AISC" /></div>
-			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-3.jpg" alt="AISC" /></div>
-			</div>
-			<div class="blurb">
-				<h3>Association of Industry Sector Councils</h3><br />
-				<h6>Communications Planning / Design / Website / Video</h6>
-				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
-				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
-				</p>
-				<p><a href="https://aisc.ca/" target="_blank">Visit Site</a></p>
-			</div>
-		</div>
-	</div>
-	<!-- / AISC -->
-	
 	<!-- PROTEOFORM -->
 	<div class="grid-item">
 	<i class="fa fa-plus"></i>
@@ -657,6 +601,33 @@
 		</div>
 	</div>
 	<!-- / PROTEOFORM -->
+	
+	<!-- GIANT TIGER -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/giant-tiger/giant-tiger-thumb.jpg" alt="Giant Tiger" />
+		</a>
+		
+		<h4>Giant Tiger</h4>
+		<p>Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider gem-slider">
+				<iframe id="video-frame-13" src="https://player.vimeo.com/video/369679455?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			 
+			    <iframe id="video-frame-14" src="https://player.vimeo.com/video/369679021?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div>
+			<div class="blurb">
+				<h3>Giant Tiger</h3><br />
+				<h6>Video</h6>
+				<p>Through a collaboration with media strategist &amp; brand ambassador Erin Trafford, we were commissioned to create two videos to support Giant Tiger’s Op Santa Claus - a campaign to raise funds to provide care packages to all Canadian Forces personnel deployed overseas for Christmas. Sharing the story of two friends - Emma &amp; Sophie - whose fathers have both been away from home for Christmas, we produced a heart-warming story to run on Giant Tigers’s website, Facebook and Instagram channels during the campaign, which is being run in all 250 stores nationwide for the first time. In market for 11 days in early November 2019, the video helped drive a 40% increase in donations on the previous year.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- / GIANT TIGER -->
 	
 	<!-- GEM RETIREMENT LIVING -->
 	<div class="grid-item">
@@ -1080,6 +1051,35 @@
 		</div>
 	</div>
 	<!-- END ST. FX UNIVERSITY -->
+	
+	<!-- AISC -->
+	<div class="grid-item">
+	<i class="fa fa-plus"></i>
+		<a>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-thumb.jpg" alt="Association of Industry Sector Councils" />
+		</a>
+		
+		<h4>Association of Industry Sector Councils</h4>
+		<p>Communications Planning / Design / Website / Video</p>
+		
+		<div class="port-panel">
+		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
+			<div class="slider">
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-1.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-2.jpg" alt="AISC" /></div>
+			    <div><img src="<?php echo get_template_directory_uri(); ?>/images/projects/aisc/aisc-slide-3.jpg" alt="AISC" /></div>
+			</div>
+			<div class="blurb">
+				<h3>Association of Industry Sector Councils</h3><br />
+				<h6>Communications Planning / Design / Website / Video</h6>
+				<p>The AISC is a collective of 12 industry associations in Nova Scotia whose combined members  account for more than half of provincial GDP and 60% of its workforce. The AISC lacked visibility to its principle funder - the Government of Nova Scotia - so required a communications strategy to engage stakeholders and deliver a clear message about the association’s value.</p>
+				<p>During phase 1, General Public - in partnership with Journeyman - conducted research and created a communications plan that informed phase 2, the design and development of a new website and video content. For efficiency, the video was created using existing content only.
+				</p>
+				<p><a href="https://aisc.ca/" target="_blank">Visit Site</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- / AISC -->
 	
 </div>
 <?php endif; ?>
