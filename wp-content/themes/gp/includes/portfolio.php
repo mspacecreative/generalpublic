@@ -101,9 +101,9 @@
 		<div class="port-panel">
 		<div class="close"><img src="<?php echo get_template_directory_uri(); ?>/images/close-button.png" /></div>
 			<div class="slider gem-slider">
-				<iframe id="video-frame-15" src="https://player.vimeo.com/video/363899839?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				<iframe id="video-frame-15" src="https://player.vimeo.com/video/373771145?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			 
-			    <iframe id="video-frame-16" src="https://player.vimeo.com/video/354395395?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			    <iframe id="video-frame-16" src="https://player.vimeo.com/video/373771161?title=0&byline=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 			</div>
 			<div class="blurb">
 				<h3 style="background: <?php the_field('colour_picker', 'options'); ?>">Heating Assistance Rebate Program (HARP)</h3><br />

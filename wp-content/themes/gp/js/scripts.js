@@ -2631,6 +2631,8 @@ jQuery(document).ready(function($) {
 	var idPlayer12 = new Vimeo.Player('video-frame-12');
 	var idPlayer13 = new Vimeo.Player('video-frame-13');
 	var idPlayer14 = new Vimeo.Player('video-frame-14');
+	var idPlayer13 = new Vimeo.Player('video-frame-15');
+	var idPlayer14 = new Vimeo.Player('video-frame-16');
 	
 	$('.close').on("click", function() {
 	   idPlayer1.unload();
@@ -2647,6 +2649,8 @@ jQuery(document).ready(function($) {
 	   idPlayer12.unload();
 	   idPlayer13.unload();
 	   idPlayer14.unload();
+	   idPlayer15.unload();
+	   idPlayer16.unload();
 	});
 	
 	idPlayer1.getPlayed().then(function(played) {
@@ -2787,6 +2791,28 @@ jQuery(document).ready(function($) {
 	            idPlayer14.pause();
 	        } else {
 				idPlayer14.play();
+	        }
+	    });
+	
+	});
+	
+	idPlayer15.getPlayed().then(function(played) {
+	    $('.slick-prev, .slick-next, .slick-dots li').click(function() {
+	        if(played){
+				idPlayer15.pause();
+	        } else {
+				idPlayer15.play();
+	        }
+	    });
+	});
+	
+	
+	idPlayer16.getPlayed().then(function(played) {
+	    $('.slick-prev, .slick-next, .slick-dots li').click(function() {
+	        if(played){
+	            idPlayer16.pause();
+	        } else {
+				idPlayer16.play();
 	        }
 	    });
 	
