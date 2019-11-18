@@ -1,7 +1,7 @@
 <!--FOOTER-->
 		<section id="footer">
 			<article class="black-text">
-				<p>&copy; <?php echo date("Y") ?> General Public. All Rights Reserved.</p>
+				<p>&copy; <?php echo date("Y") ?> General Public &amp; Partners. All Rights Reserved.</p>
 			</article>
 		</section>
 		<!--FOOTER-->
