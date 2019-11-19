@@ -17,7 +17,7 @@ Template Name: Home Page
 <div class="video-container">
     <video preload="none" poster="<?php bloginfo('template_url'); ?>/video/poster/gp-partners-poster.jpg" autoplay loop muted playsinline>
 
-	<source src="<?php bloginfo('template_url'); ?>/video/gp-partners-video.mp4" type="video/mp4">
+	<source src="https://iwkannualreport-10adb.kxcdn.com/videos/gp-partners-video.mp4" type="video/mp4">
 
 	<!--<source src="<?php bloginfo('template_url'); ?>/video/gp-home-video.webm" type="video/webm">
 
