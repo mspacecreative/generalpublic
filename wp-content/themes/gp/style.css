@@ -148,8 +148,8 @@ a {
 }
 
 #clients {
-	background: url('images/clients-background.jpg') no-repeat top center scroll;
-	background-size: cover;
+	background: #f7f7f7 url('images/clients-background.jpg') no-repeat bottom right scroll;
+	background-size: 70%;
 }
 
 #feed, #contact {
@@ -496,9 +496,19 @@ html span.dv-member-name {
 
 @media (max-width: 540px) {
 
-.logo-box img {
-	width: 80%;
+	.logo-box img {
+		width: 80%;
+	}
+	#clients {
+		background-size: 100%;
+	}
 }
+
+@media (max-width: 850px) and (orientation: landscape) {
+
+	#clients {
+		background-size: 100%;
+	}
 }
 
 .logo-box img {
