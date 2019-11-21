@@ -623,65 +623,61 @@ Template Name: Home Page
 
 		<div class="two-third black-text">
 
-			<div class="mobile-inner-padding">
+			<div class="inner">
 
 				<?php the_sub_field('who_right_col_first_row'); ?>
 
-			</div>
-
-			<div class="two-col" style="margin-bottom: 25px;">
-
-				<div class="mobile-inner-padding clearfix">
-					<div class="l-col">
-					    
-					    <?php the_sub_field('who_right_col_second_row_1'); ?>
+				<div class="two-col" style="margin-bottom: 25px;">
 	
+					<div class="clearfix">
+						<div class="l-col">
+						    
+						    <?php the_sub_field('who_right_col_second_row_1'); ?>
+		
+						</div><!-- / LEFT-COL -->
+		
+						<div class="r-col">
+						    
+						    <?php the_sub_field('who_right_col_second_row_2'); ?>
+		
+						</div><!-- / RIGHT-COL -->
 					</div>
 	
-					<div class="r-col">
-					    
-					    <?php the_sub_field('who_right_col_second_row_2'); ?>
-	
-					</div>
-				</div>
-
-			</div>
+				</div><!-- / TWO-COL -->
 			
-			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
-			<div class="mobile-inner-padding">
-
+				<?php if ( get_sub_field('who_right_col_third_row') ): ?>
 				<?php the_sub_field('who_right_col_third_row'); ?>
-
-			</div>
-			<?php endif; ?>
-			
-			<?php
-			$wholastrow1 = get_sub_field('who_right_col_last_row_1');
-			$wholastrow2 = get_sub_field('who_right_col_last_row_2');
-			
-			if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
-			
-			<div class="two-col clearfix" style="margin-top: 0;">
-
-				<div class="mobile-inner-padding clearfix">
-					<div class="l-col">
-					    
-					    <?php echo $wholastrow1; ?>
+				<?php endif; ?>
+				
+				<?php
+				$wholastrow1 = get_sub_field('who_right_col_last_row_1');
+				$wholastrow2 = get_sub_field('who_right_col_last_row_2');
+				
+				if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
+				
+				<div class="two-col clearfix" style="margin-top: 0;">
 	
+					<div class="mobile-inner-padding clearfix">
+						<div class="l-col">
+						    
+						    <?php echo $wholastrow1; ?>
+		
+						</div>
+		
+						<div class="r-col">
+						    
+						    <?php echo $wholastrow2; ?>
+		
+						</div>
 					</div>
 	
-					<div class="r-col">
-					    
-					    <?php echo $wholastrow2; ?>
-	
-					</div>
-				</div>
-
-			</div>
+				</div><!-- / TWO-COL -->
+				
+			</div><!-- / INNER -->
 			
 			<?php endif; ?>
 
-		</div>
+		</div><!-- / TWO-THIRD -->
 		
 		<?php
 		endwhile;
