@@ -592,7 +592,7 @@ Template Name: Home Page
 <?php endif;
 
 	if ( get_field('who_text_colour') == 'dark' ): ?>
-	<article class="clearfix no-column-bg">
+	<article class="clearfix">
 	    
 	    <?php 
 		if( have_rows('who_left_col') ):
@@ -687,7 +687,7 @@ Template Name: Home Page
 	</article>
 	
 	<?php elseif ( get_field('who_text_colour') == 'light' ): ?>
-	<article class="clearfix no-column-bg">
+	<article class="clearfix">
 		    
 		<?php 
 		if( have_rows('who_left_col') ):
