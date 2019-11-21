@@ -584,10 +584,16 @@ Template Name: Home Page
 
 <?php if ( get_field('who_bg_img') ): ?>
 <section id="who" style="background-image: url(<?php the_field('who_bg_img'); ?>);">
+	<?php if ( get_field('overlay') ): ?>
+	<div class="overlay" style="background-color: <?php the_field('overlay'); ?>;"></div>
+	<?php endif; ?>
 
 <?php else : ?>
 
 <section id="who" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/orange-wall.jpg);">
+	<?php if ( get_field('overlay') ): ?>
+	<div class="overlay" style="background-color: <?php the_field('overlay'); ?>;"></div>
+	<?php endif; ?>
 
 <?php endif;
 
