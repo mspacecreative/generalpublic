@@ -148,9 +148,8 @@ a {
 }
 
 #clients {
-	background: url('images/motorcycle.jpg') no-repeat center center scroll;
+	background: url('images/clients-background.jpg') no-repeat top center scroll;
 	background-size: cover;
-	background-position: top center;
 }
 
 #feed, #contact {
