@@ -598,7 +598,7 @@ Template Name: Home Page
 		if( have_rows('who_left_col') ):
 		while( have_rows('who_left_col') ): the_row(); ?>
 
-		<div class="one-third black-text">
+		<div class="one-third black-text light-overlay">
 
 			<div class="inner">
 
@@ -621,7 +621,7 @@ Template Name: Home Page
 		if( have_rows('who_right_col') ):
 		while( have_rows('who_right_col') ): the_row(); ?>
 
-		<div class="two-third black-text">
+		<div class="two-third black-text light-overlay">
 
 			<div class="inner">
 
