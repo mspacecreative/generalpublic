@@ -692,89 +692,87 @@ Template Name: Home Page
 		<?php 
 		if( have_rows('who_left_col') ):
 		while( have_rows('who_left_col') ): the_row(); ?>
-	
-		<div class="one-third">
-	
-			<div class="mobile-inner-padding white-text">
-	
+		
+		<div class="one-third white-text">
+		
+			<div class="inner">
+		
 				<h4><?php the_sub_field('col_title'); ?></h4>
+		
 				<h1 class="header"><?php the_sub_field('col_sub_title'); ?></h1>
+		
 				<?php the_sub_field('col_blurb'); ?>
-	
+		
 			</div>
-	
+		
 		</div>
-			
+				
 		<?php
 		endwhile;
 		endif; ?>
-			
+				
 		<?php 
 		if( have_rows('who_right_col') ):
 		while( have_rows('who_right_col') ): the_row(); ?>
-	
-		<div class="two-third">
-	
-			<div class="mobile-inner-padding white-text">
-	
+		
+		<div class="two-third white-text">
+		
+			<div class="inner">
+		
 				<?php the_sub_field('who_right_col_first_row'); ?>
-	
-			</div>
-	
-			<div class="two-col white-text" style="margin-bottom: 25px;">
-	
-				<div class="mobile-inner-padding clearfix white-text">
-					<div class="l-col">
-						    
-						<?php the_sub_field('who_right_col_second_row_1'); ?>
 		
-					</div>
-		
-					<div class="r-col">
-						    
-						<?php the_sub_field('who_right_col_second_row_2'); ?>
-		
-					</div>
-				</div>
-	
-			</div>
-				
-			<?php if ( get_sub_field('who_right_col_third_row') ): ?>
-			<div class="mobile-inner-padding white-text">
-	
-				<?php the_sub_field('who_right_col_third_row'); ?>
-	
-			</div>
-			<?php endif; ?>
-				
-			<?php
-			$wholastrow1 = get_sub_field('who_right_col_last_row_1');
-			$wholastrow2 = get_sub_field('who_right_col_last_row_2');
-				
-			if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
-				
-			<div class="two-col white-text" style="margin-top: 0;">
-	
-				<div class="mobile-inner-padding clearfix white-text">
-					<div class="l-col">
-						    
-						<?php echo $wholastrow1; ?>
-		
-					</div>
-		
-					<div class="r-col">
-						    
-						<?php echo $wholastrow2; ?>
-		
-					</div>
-				</div>
-	
-			</div>
-				
-			<?php endif; ?>
-	
-		</div>
+				<div class="two-col" style="margin-bottom: 25px;">
 			
+					<div class="clearfix">
+						<div class="l-col">
+								    
+							<?php the_sub_field('who_right_col_second_row_1'); ?>
+				
+						</div><!-- / LEFT-COL -->
+				
+						<div class="r-col">
+								    
+							<?php the_sub_field('who_right_col_second_row_2'); ?>
+				
+						</div><!-- / RIGHT-COL -->
+					</div>
+			
+				</div><!-- / TWO-COL -->
+					
+				<?php if ( get_sub_field('who_right_col_third_row') ): ?>
+				<?php the_sub_field('who_right_col_third_row'); ?>
+				<?php endif; ?>
+						
+				<?php
+				$wholastrow1 = get_sub_field('who_right_col_last_row_1');
+				$wholastrow2 = get_sub_field('who_right_col_last_row_2');
+						
+				if ( $wholastrow1 == true && $wholastrow2 == true ): ?>
+						
+				<div class="two-col clearfix" style="margin-top: 0;">
+			
+					<div class="mobile-inner-padding clearfix">
+						<div class="l-col">
+								    
+							<?php echo $wholastrow1; ?>
+				
+						</div>
+				
+						<div class="r-col">
+								    
+							<?php echo $wholastrow2; ?>
+				
+						</div>
+					</div>
+			
+				</div><!-- / TWO-COL -->
+						
+				<?php endif; ?>
+						
+			</div><!-- / INNER -->
+		
+		</div><!-- / TWO-THIRD -->
+				
 		<?php
 		endwhile;
 		endif; ?>
