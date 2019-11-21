@@ -673,9 +673,9 @@ Template Name: Home Page
 	
 				</div><!-- / TWO-COL -->
 				
+				<?php endif; ?>
+				
 			</div><!-- / INNER -->
-			
-			<?php endif; ?>
 
 		</div><!-- / TWO-THIRD -->
 		
