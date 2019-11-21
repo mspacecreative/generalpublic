@@ -657,7 +657,7 @@ Template Name: Home Page
 				
 				<div class="two-col clearfix" style="margin-top: 0;">
 	
-					<div class="mobile-inner-padding clearfix">
+					<div class="clearfix">
 						<div class="l-col">
 						    
 						    <?php echo $wholastrow1; ?>
@@ -751,7 +751,7 @@ Template Name: Home Page
 						
 				<div class="two-col clearfix" style="margin-top: 0;">
 			
-					<div class="mobile-inner-padding clearfix">
+					<div class="clearfix">
 						<div class="l-col">
 								    
 							<?php echo $wholastrow1; ?>
