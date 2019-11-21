@@ -150,6 +150,7 @@ a {
 #clients {
 	background: url('images/motorcycle.jpg') no-repeat center center scroll;
 	background-size: cover;
+	background-position: top center;
 }
 
 #feed, #contact {
